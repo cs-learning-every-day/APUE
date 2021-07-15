@@ -7,7 +7,7 @@
     wget http://www.apuebook.com/src.3e.tar.gz
     tar -zxvf src.3e.tar.gz
     cd apue.3e
-    make 遇到的部分问题下面有
+    make (遇到的部分问题下面有, 台式机上的Ubuntu20遇到下面问题，笔记本上的WSL下的Ubuntu18一次过，玄学😌)
 
     放到gcc默认搜索的位置，不然要指定路径有点麻烦
     sudo cp ./include/apue.h /usr/local/include/
