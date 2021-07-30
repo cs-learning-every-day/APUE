@@ -7,3 +7,4 @@
 ## Index:
 
 - [环境搭建](./first_step.md)
+- [CH2](./ch2)
