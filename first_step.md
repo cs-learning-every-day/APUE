@@ -12,6 +12,9 @@
     放到gcc默认搜索的位置，不然要指定路径有点麻烦
     sudo cp ./include/apue.h /usr/local/include/
     sudo cp ./lib/libapue.a /usr/local/lib/
+
+    编译
+    gcc [filename].c -lapue
 ```
 
 ### 问题 1
