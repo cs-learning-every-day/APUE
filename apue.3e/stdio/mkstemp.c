@@ -6,7 +6,9 @@ void make_temp(char *template);
 int
 main()
 {
+	// 分配到栈上
 	char	good_template[] = "/tmp/dirXXXXXX";	/* right way */
+	// 指针分配到栈上, 字符串放在.rodata段中
 	char	*bad_template = "/tmp/dirXXXXXX";	/* wrong way*/
 
 	printf("trying to create first temp file...\n");
